@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iei_webapp/static/css/main.85e0e126.css",
-    "main.js": "/iei_webapp/static/js/main.791c89da.js",
+    "main.js": "/iei_webapp/static/js/main.52e41b3a.js",
     "static/media/phone_animations_lottie_2.gif": "/iei_webapp/static/media/phone_animations_lottie_2.12e011f4a877e8eadb90.gif",
     "static/media/vision4.jpg": "/iei_webapp/static/media/vision4.4459c8d91b5bc8b05a32.jpg",
     "static/media/background.gif": "/iei_webapp/static/media/background.5d850951310c0548bfcf.gif",
@@ -20,10 +20,10 @@
     "static/media/sujatamam.jpg": "/iei_webapp/static/media/sujatamam.e3ff77fca5b6478379d2.jpg",
     "index.html": "/iei_webapp/index.html",
     "main.85e0e126.css.map": "/iei_webapp/static/css/main.85e0e126.css.map",
-    "main.791c89da.js.map": "/iei_webapp/static/js/main.791c89da.js.map"
+    "main.52e41b3a.js.map": "/iei_webapp/static/js/main.52e41b3a.js.map"
   },
   "entrypoints": [
     "static/css/main.85e0e126.css",
-    "static/js/main.791c89da.js"
+    "static/js/main.52e41b3a.js"
   ]
 }
