@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Roboto&family=Tektur:wght@500&display=swap');
+
+.gif{
+    background: url('../phone_animations_lottie_2.gif');
+   
+    height: 45em;
+    width: 45em;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 1.875em;
+}
+
+.container{
+    max-width: 100vw;
+    min-height: 120vh;
+    background-color: #14121b;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact-info{
+    max-width: 50vw;
+    min-height: 100vh;
+    margin-top: 7em;
+    margin-left: 2em;
+    height: 35em;
+    width: 40em;
+    /* background-color: white; */
+    border-radius: 1.25em;
+}
+
+.contact-info h1{
+    color: rgb(249, 70, 70);
+    font-family: 'Tektur', 'cursive';
+    font-size: 4rem;
+    margin-left: 2em;
+}
+
+.color-change-2x-2 {
+    animation: color-change-2x-2 6s infinite alternate;
+}
+
+
+
+@keyframes color-change-2x-2 {
+    0% {
+        background: #14121b;
+    }
+    
+    100% {
+        background:  rgb(73, 72, 72);
+    }
+}
+
+.color-change-2x-2-text {
+    animation: color-change-2x-2-text 6s infinite alternate;
+}
+
+
+
+@keyframes color-change-2x-2-text {
+    0% {
+        color: #19dcea;
+    }
+    
+    100% {
+        color:  #b22cff;
+    }
+}
+
+.icons{
+    padding: 20%;
+    display: flex;
+    margin-top: -5em;
+    margin-left: -4em;
+}
+
+.icon{
+    transition: scale 1s ease-in-out;
+    
+}
+
+.icon:hover{
+    scale: 1.2;
+}
+
+
+
+
+ @media (max-width: 1509px) {
+    .container {
+      /* display: block; */
+      display: flex;
+      margin-top: -1%;
+      height: 150vh;
+    }
+    .contact-info{
+        max-width: 40vw;
+        min-height:  100vh;
+        margin-top: 7em;
+        margin-left: 8em;
+        height: 35em;
+        width: 40em;
+    }
+    .gif{
+        height: 35em;
+        width: 35em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+  }
+
+  @media (max-width: 1232px){
+    .container{
+        /* display: flex; */
+        /* flex-direction: column-reverse; */
+         /* flex-direction: row-reverse; */
+         display: block;
+        flex-wrap: wrap; 
+        height: 250vh;
+        margin-top: -13%;
+    }
+    .contact-info{
+        padding-top: 9em;
+        margin-left: 15em;
+    }
+    .contact-info h1{
+        margin-left: 2em;
+    }
+    .gif{
+        margin-left: 25%;
+    }
+  }
+
+  @media (max-width: 1005px) { 
+    .container{
+        display: block;
+        /* display: flex;
+        flex-direction: column-reverse; */
+        margin-top: -17%;
+    }
+    .contact-info{
+        margin-left: 18%;
+        padding-top: 10em;
+    }
+    .contact-info h1{
+        margin-left: 40%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .gif{
+        margin-left: 15%;
+    }
+ }
+
+ @media (max-width: 776px){
+    .contact-info{
+        margin-left: 9%;
+        padding-top: 10em;
+    }
+    .contact-info h1{
+        margin-left: 55%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .gif{
+        margin-left: 10%;
+    }
+    .container{
+        margin-top: -17%;
+    }
+ }
+
+ @media (max-width: 647px){
+    .icons{
+        display: block;
+        padding-left: 50%;
+    }
+    .gif{
+        height: 27em;
+        width: 27em;
+        margin-top: 70%;
+    }
+    .contact-info{
+        /* margin-left: 10%; */
+        padding-top: 10em;
+    }
+    .contact-info h1{
+        margin-left: 55%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .container{
+        margin-top: -20%;
+        height: 300vh;
+    }
+ }
+
+ @media (max-width: 550px){
+    .icons{
+        display: block;
+        padding: 20%;
+        margin-left: 23%;
+        margin-top: 20%;
+        padding-left: 15%;
+    }
+    .contact-info h1{
+        margin-bottom: 20%;
+        margin-left: 15%;
+    }
+    
+    .gif{
+        height: 27em;
+        width: 27em;
+        margin-top: 80%;
+    }
+    .container{
+        margin-top: -25%;
+    }
+ }
+
+ @media (max-width: 442px){
+    .gif{
+        height: 23em;
+        width: 23em;
+    }
+    .container{
+        margin-top: -28%;
+    }
+ }
+
+ @media (max-width: 405px){
+    .contact-info{
+        margin-left: -13%;
+        padding-top: 10em;
+    }
+
+    .individualIcon{
+        margin-bottom: 10%;
+    }
+    .contact-info h1{
+        margin-left: 60%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .gif{
+        margin-left: 15%;
+        margin-top: 90%;
+    }
+    .icons{
+        padding-left: 55%;
+    }
+
+    .container{
+        margin-top: -47%;
+    }
+ }
+
+
+ @media (max-width: 395px){
+    .gif{
+        height: 17em;
+        margin-top:100%;
+        width: 17em;
+
+    }
+    .container{
+        display: block;
+        margin-top: -47%;
+        height: 195vh;
+    }
+ }
+
+ @media (max-width: 324px){
+    .gif{
+        height: 15em;
+        width: 15em;
+        
+    }
+    .container{
+        display: block;
+        margin-top: -49%;
+    }
+    
+    .contact-info h1{
+        font-size: 3rem;
+    }
+ }
+
+
+
+
